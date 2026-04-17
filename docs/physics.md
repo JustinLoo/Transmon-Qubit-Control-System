@@ -1,4 +1,4 @@
-## Transmon Qubit: An Artificial Atom
+## Physics Learning and Explanations
 
 A **transmon** is essentially an artificial atom. It is made up of two parts:
 
