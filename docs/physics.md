@@ -39,4 +39,10 @@ $$
 $$
 
 
-In traditional QM, we use Position space ($x$) and Momentum space ($p$). In a transmon, we use Phase ($\phi$) and Charge ($n$). Because these are perfectly analogous conjugate variables, they obey the uncertainty principle $\Delta \phi \Delta n \ge \frac{1}{2}$. Furthermore, because Phase and Charge are related by a discrete Fourier Transform, we can translate the continuous Hamiltonian into a discrete algebraic system:$$\left( -4E_C \frac{d^2}{d\phi^2} - E_J \cos(\phi) \right) \psi_m(\phi) = E_m \psi_m(\phi)$$$$\downarrow$$$$4E_C(n - n_g)^2 c_n - \frac{E_J}{2} (c_{n-1} + c_{n+1}) = E_m c_n$$(Where $E_{m}$ are energy eigen states and $n$ is the charge state).
+In traditional QM, we use Position space ($x$) and Momentum space ($p$). In a transmon, we use Phase ($\phi$) and Charge ($n$). Because these are perfectly analogous conjugate variables, they obey the uncertainty principle $\Delta \phi \Delta n \ge \frac{1}{2}$. Furthermore, because Phase and Charge are related by a discrete Fourier Transform, we can translate the continuous Hamiltonian into a discrete algebraic system:
+
+$$\left( -4E_C \frac{d^2}{d\phi^2} - E_J \cos(\phi) \right) \psi_m(\phi) = E_m \psi_m(\phi)$$$$\downarrow$$$$4E_C(n - n_g)^2 c_n - \frac{E_J}{2} (c_{n-1} + c_{n+1}) = E_m c_n
+$$
+
+
+(Where $E_{m}$ are energy eigen states and $n$ is the charge state).
